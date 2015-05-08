@@ -1,0 +1,62 @@
+.color1{
+	background-color: #E0FFFF;
+}
+
+.color2{
+	background-color: #66d9ef;
+}
+
+.color3{
+	background-color: #a1e9f7;
+}
+
+.color4{
+	color: #104494;
+}
+
+.color5{
+    background-color: white}
+
+.color6{
+    background-color: red}
+}
+
+header div div div h1{
+	color:white;
+}
+
+
+.margenliga{
+	margin: 1%;
+}
+
+table{
+	/*es para centrar la tabla del menu de nav*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+/*
+#slideshow{
+    margin: 1px auto;
+    position:relative;
+    width:5px;
+    height:5px;
+    padding:10px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.4);
+}
+*/
+
+
+/*esto hace qye se reproduscan las imagenes en la misma posicion*/
+#slideshow > div{
+ position: absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ bottom:00px;
+}

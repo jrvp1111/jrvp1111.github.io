@@ -1,3 +1,11 @@
+.tamanoletra1 {
+	font-size: 15px;
+}
+
+.color7{
+	background-color: #034381;
+}
+
 .color1{
 	background-color: #E0FFFF;
 }
@@ -20,6 +28,7 @@
 .color6{
     background-color: red}
 }
+
 
 header div div div h1{
 	color:white;
@@ -59,4 +68,14 @@ h2{
  left:0px;
  right:0px;
  bottom:00px;
+}
+
+#slider{
+	height: 400px;
+}
+#slider img{
+	display: none;
+}
+#slider img:nth-child(1){
+	display: block;
 }

@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/misestilos.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-    <!--este es para el slideshow-->
+    <title>Distribuidora de Occidente</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="js/jquery.js"></script>
     <script src="jquery-1.10.1.min.js"></script>
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>-->
     <!--este es para el slideshow-->
     <script type="text/jscript" src="script.js"></script>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Distribuidora de Occidente</title>
 </head>
 <body>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 text-center">
-       <hr>
-       <hr>
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 text-center">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-header">
-
-      <a class="navbar-brand" href="index.html">Distribuidora de Occidente</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php">Distribuidora de Occidente</a>
     </div>
-    <div>
-      <ul class="nav navbar-nav">  
-         <li><a href="index.html">Inicio</a></li>
-         <li><a href="productos.html">Productos</a></li>       
-         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categoria
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Refrigeración</a></li>
-            <li><a href="#">Articulos de limpieza</a></li>
-            <li><a href="#">Equipo de computo</a></li> 
-            <li><a href="#">Ferretero</a></li> 
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>  
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categorias<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="productos.html#logod">Refrigeracion</a></li>
+            <li><a href="#">Limpieza</a></li>
+            <li><a href="#">Computo</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Ferretero</a></li>
           </ul>
         </li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Editar<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="registro.html">Registro Productos</a></li>
+            <li><a href="#">Mostrar Productos</a></li>
+            <li><a href="#">Editar Productos</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Eliminar Productos</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Salir</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contácto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Iniciar Sesión</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12"><br><br><br></div>
+  </div>
+  
 </div>
-</div>
-</div>
+  
+  <!--aqui ponemos div del la barra del logo-->
+  <div class="color1">
+    <div class="container">
+      <div class="row">
+        <!--aqui ponemos el logo-->
+        <div class="col-xs-3 text-center">
+          <img class="img-responsive" src="images/logoDistribuidoradeOccidente.png">
+        </div>
 
-
-
-
- 
-
-  <div>
-	
-		<div class="container color1">
-			<div class="row">
-				<div class="col-xs-2 text-center">
-					<img class="img-responsive" src="images/logoDistribuidoradeOccidente.png" class="">
-
-				</div>
-				<div class="col-xs-10 text-center"> 
-				  <!--slideshow-->
+        <div class="col-xs-9 text-center"> 
+          <!--slideshow-->
                    <div id="slideshow">
                        <div>                    
                         <!--para que las imagenes sean responsivas le agregamos a la etiqueta img -->
                         <!-- class="img-responsive"--> 
-                          <img class="img-responsive" src="images/501ES2-med.png">
+                          <img class="img-responsive color1" src="images/501ES2-med.png">
                        </div>
 
                        <div>
-                            <img class="img-responsive" src="images/kestrel4300-1m.png">  
+                            <img class="img-responsive color1" src="images/kestrel4300-1m.png">  
                        </div>  
 
                        <div>
-                            <img class="img-responsive" src="images/TP-LINK_TL-PB10400.png">
+                            <img class="img-responsive color1" src="images/TP-LINK_TL-PB10400.png">
                        </div>              
                    </div>
-				</div>
-			</div>
-		</div>
-    
-	
-</div>  
-<!--aqui acaba el menu-->
+        </div>
+      </div>
+    </div>
+  </div>
+        
+<!--aqui acaba el slideshow-->
+
+
     <section>
     <div class="container">
       <div class="row">
@@ -219,14 +231,15 @@
 
     </section>
 
-    <footer class="container">
+    <footer class="container-fluid">
        <div class="row">
-          <div class="col-xs-12 color1 text-center">
-          <h4>Derechos reservados &copy; </h4>
+          <div class="col-xs-12  color7 text-center">
+          <h4><font color="white">Derechos reservados &copy;</font></h4>
         </div>
       </div>
     </footer>
 
-    <script src=js/bootstrap.js></script>
+
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
